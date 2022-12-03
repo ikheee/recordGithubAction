@@ -14,3 +14,6 @@ jobs:
       run: python -V
     - name: 노드 출력!!
       run: node -v
+    - uses: actions/checkout@v2
+    - name: 파이썬 실행!!
+      run: python test.py
